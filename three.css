@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 10px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a{
+    font-size: 30px;
+    color: black;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: serif;
+}
+.navbar a:hover{
+    color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    background-color: orangered;
+    letter-spacing: 2.5px;
+}
+/* .........end of header ..... */
+.text h1{
+    padding-top: 100px;
+    margin-left: 20px;
+    font-size: 40px;
+    color: orangered;
+    font-weight: bold;
+    font-family: serif;
+}
+span{
+    color: black;
+    font-weight: bolder;
+    font-family: serif;
+    text-align: center;
+    /* -webkit-text-stroke:  1px orangered; */
+}
+
+/* h1 finish ....... */
+
+.image-container{
+max-width: 85%;
+margin-top: 40px;
+padding-left: 50px;
+columns: 3 250px;
+gap: 150px;
+}
+.image-container img{
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.80;
+    transform: 1s;
+}
+.image-container img:hover{
+opacity: 1;
+transform: scale(1.01);
+}
+
+
